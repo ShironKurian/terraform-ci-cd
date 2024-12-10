@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "example" {
-  ami           = "ami-0c55b159cbfafe1f0"
+  ami           = "ami-0c02fb55956c7d316"
   instance_type = "t2.micro"
   count         = var.core_count
 
